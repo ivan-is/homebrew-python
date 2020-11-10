@@ -30,7 +30,7 @@ class PythonAT34 < Formula
   end
 
   resource "pip" do
-    url "https://pypi.python.org/packages/source/p/pip/pip-8.0.2.tar.gz"
+    url "https://pypi.python.org/packages/source/p/pip/pip-18.0.tar.gz"
     sha256 "46f4bd0d8dfd51125a554568d646fe4200a3c2c6c36b9f2d06d2212148439521"
   end
 
