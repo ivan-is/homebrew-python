@@ -1,4 +1,4 @@
-class Python34 < Formula
+class PythonAT34 < Formula
   desc "Interpreted, interactive, object-oriented programming language"
   homepage "https://www.python.org/"
   head "https://hg.python.org/cpython", :using => :hg, :branch => "3.4"
