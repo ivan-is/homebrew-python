@@ -89,6 +89,7 @@ class PythonAT34 < Formula
       --datadir=#{share}
       --enable-framework=#{frameworks}
       --without-ensurepip
+      --with-openssl=/usr/local/opt/openssl
     ]
 
     args << "--without-gcc" if ENV.compiler == :clang
