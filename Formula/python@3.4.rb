@@ -163,8 +163,8 @@ class PythonAT34 < Formula
 
     # Remove wheel test data.
     # It's for people editing wheel and contains binaries which fail `brew linkage`.
-    rm libexec/"wheel/tox.ini"
-    rm_r libexec/"wheel/tests"
+    #rm libexec/"wheel/tox.ini"
+    #rm_r libexec/"wheel/tests"
   end
 
   def post_install
