@@ -13,6 +13,13 @@ Python 3.8     | 3.8.6
 
 ## Installing formulae
 
+To install SSL 1.0 for python3.4
+
+```
+brew install rbenv/tap/openssl@1.0
+```
+
+
 Replace `X` in examples below with minor version of Python --  `5` for Python 3.5, `6` for Python 3.6, `7` for Python 3.7, or `8` for Python 3.8.
 
 Python 3.X will be installed into `/usr/local/opt/python@3.X`, as a keg, i.e without linking into `/usr/local/bin` in order to avoid conflicts with the python formulae.
